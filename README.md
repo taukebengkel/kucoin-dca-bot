@@ -39,3 +39,34 @@ Unlike Python or JavaScript, this bot is built using **Golang (Go)** for several
    ```bash
    git clone [https://github.com/YOUR_USERNAME/kucoin-dca-bot.git](https://github.com/YOUR_USERNAME/kucoin-dca-bot.git)
    cd kucoin-dca-bot
+
+## 🛠️ Installation & Setup
+
+...
+
+3. **Configure Environment Variables**:
+   Create a `.env` file in the root directory. Copy the template below and add your credentials:
+   
+   ```env
+   KUCOIN_API_KEY=your_key
+   KUCOIN_API_SECRET=your_secret
+   KUCOIN_API_PASSPHRASE=your_passphrase
+   DISCORD_WEBHOOK_URL=your_webhook
+   
+   # IMPORTANT: Set to 'false' for Paper Trading / Testing. 
+   # Set to 'true' ONLY when you are ready for real live trading.
+   LIVE_TRADE=false
+
+4. Build and Run:
+
+   go mod tidy
+   go build -o kucoin-bot
+   ./kucoin-bot
+
+⚠️ Disclaimer
+Trading cryptocurrencies involves significant risk. This bot is provided "as-is" without any warranties. Always test with small amounts first. The developers are not responsible for any financial losses.
+
+🤝 Contributing
+Feel free to fork this project, report issues, or submit pull requests to improve the trading logic!
+
+Developed with ❤️ for the crypto community.
