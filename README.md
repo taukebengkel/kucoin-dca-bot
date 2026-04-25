@@ -2,7 +2,9 @@
 
 A high-performance, automated cryptocurrency trading bot built in Golang, specifically optimized for the KuCoin exchange. This bot uses a sophisticated **3+3 Layering DCA Strategy** with an integrated **Anti-Crash & Anti-Pump protection system**.
 
-![FIRST RUN](Acreenshot1-bot.png) ![Discord](screenshot-bot.png)
+<p align="center">
+  <img src="Screenshot-bot1.png" width="500">
+</p>
 
 ## 🌟 Key Features
 
