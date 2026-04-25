@@ -11,6 +11,15 @@ A high-performance, automated cryptocurrency trading bot built in Golang, specif
 - **Dynamic Strategy**: Automatically adjusts RSI and Dip thresholds based on Bitcoin's 15-minute trend.
 - **Discord Integration**: Get instant notifications for every Buy, Sell, and DCA action directly on your Discord server.
 
+## ⚡ Why Golang?
+
+Unlike Python or JavaScript, this bot is built using **Golang (Go)** for several critical reasons:
+
+- **Speed & Performance**: Go is a compiled language, making it significantly faster than interpreted languages. In scalping, milliseconds matter.
+- **Efficient Concurrency**: Uses *Goroutines* to monitor multiple market tickers and execute trades simultaneously without lagging your system.
+- **Low Resource Usage**: Perfect for running 24/7 on low-power devices like **Raspberry Pi** or cheap VPS instances.
+- **Reliability**: Strong typing and compile-time checks ensure the bot is stable and less prone to runtime crashes during volatile market hours.
+
 ## 📈 Trading Logic
 
 | Action | Condition |
