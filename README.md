@@ -40,9 +40,6 @@ Unlike Python or JavaScript, this bot is built using **Golang (Go)** for several
    git clone [https://github.com/YOUR_USERNAME/kucoin-dca-bot.git](https://github.com/YOUR_USERNAME/kucoin-dca-bot.git)
    cd kucoin-dca-bot
 
-## 🛠️ Installation & Setup
-
-...
 
 ### 🔑 How to get KuCoin API Keys
 1. Log in to your [KuCoin Account](https://www.kucoin.com).
