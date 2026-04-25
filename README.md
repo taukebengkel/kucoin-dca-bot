@@ -44,6 +44,15 @@ Unlike Python or JavaScript, this bot is built using **Golang (Go)** for several
 
 ...
 
+### 🔑 How to get KuCoin API Keys
+1. Log in to your [KuCoin Account](https://www.kucoin.com).
+2. Go to **API Management** (under the profile icon).
+3. Click **Create API**.
+4. **API Permissions**: Select **"Spot Trading"** only. 
+   - *Note: Do NOT enable "Transfer" or "Withdrawal" for security.*
+5. **IP Restriction**: For maximum security, restrict access to your Raspberry Pi/VPS IP address.
+6. Copy your **Key**, **Secret**, and **Passphrase**.
+
 3. **Configure Environment Variables**:
    Create a `.env` file in the root directory. Copy the template below and add your credentials:
    
