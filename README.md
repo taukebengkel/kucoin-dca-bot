@@ -75,6 +75,11 @@ Unlike Python or JavaScript, this bot is built using **Golang (Go)** for several
 ⚠️ Disclaimer
 Trading cryptocurrencies involves significant risk. This bot is provided "as-is" without any warranties. Always test with small amounts first. The developers are not responsible for any financial losses.
 
+## 📁 Project History (Archive)
+
+We maintain older versions of the bot for educational purposes and legacy strategy reference:
+
+- **[v35.45 ANTI-CRASH](./archive/v35_45_anti_crash.go)**: The original stable version. It focused on single-entry scalping with a strict 24h volume/drop filter to avoid volatile "trash" coins. No DCA logic was included in this version.
 🤝 Contributing
 Feel free to fork this project, report issues, or submit pull requests to improve the trading logic!
 
